@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://davidwatson.org/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>var inDapIF=true,inGptIF=true;</script><style></style><script type="text/javascript" async="" src="./f(2).txt"></script></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><div class="GoogleActiveViewInnerContainer" id="avic_CIuXyYi40ZMDFZn9hAAdUyA8cw" style="left:0px;top:0px;width:100%;height:100%;position:fixed;pointer-events:none;z-index:-9999;"></div><div style="display:inline"><div id="overcap" style="display:none;"></div>
+
+<script>
+       var maxOverCapTries        = 50,
+              curOverCapTries            = 0,
+              publishCloseEvent    = (function() {
+       
+              var par              = (typeof parent !== 'undefined') ? parent : {},
+                     jquery = par.jQuery,
+                     fitt   = par.fitt;
+       
+              function jqueryPublish() { 
+                     if(jquery === "undefined"){
+                            setTimeout(jqueryPublish, 800);
+                     }else{
+                            try { jquery.publish('ad.overlay.close') } catch (e) {}
+                     }
+              }
+              
+              function fittPublish() {
+                     try { fitt.emitter.emit('ad.overlay.close'); } catch (e) {}
+              }
+              
+              /* return noop if neither available */
+              return ((jquery) ? jqueryPublish : (fitt) ? fittPublish : function(){});
+       })();
+       
+       function handleImageEvents() {
+              var me = this;
+              if (me) {
+                     me.onerror = me.onload = null;
+              }
+       }
+</script>
+<script language="javascript" type="text/javascript" src="./hanfordCap.js.download"></script> 
+
+<script>
+       function overCap()  {
+              var capValue, img;
+              
+              if (typeof checkSetCapping === 'function') {
+                     try {
+                           capValue = checkSetCapping('get', '138271411242','');
+                     } catch (e) {
+                           capValue = '';
+                     }
+                     if (!capValue) {
+                           try {
+                                  checkSetCapping('set','138271411242',''); 
+                           } catch (e) { }
+                           
+                           img = new Image();
+                           img.onerror = 
+                           img.onload = handleImageEvents;
+                           img.src = 'https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstMwUMs3AKamvW_HJjO5g2YZ-oZHS0Xqw7y70BUorHvlrvEXYK3qQe9naDAEuMpi1FXLL-JYDK04xphiQM5FhHH2GsL7TT7l1Erki3FfSgWkvSCBfNobSpnTdKa_AGvkY8RbkQNl6tyAhubuNLAIpwd-dev9zUQYezKqHXk8Xz_ld0AdmZ-nTYk4zDK2x5dRgMnrKyJE__D5pB5f2WWH44G3IpMZ1BmIyz1VfBKTRjSiUmIM1DzQm7wcTZD3ihF7E4c_MOsctl0AA1mUmlcOXsP8_-ZmcxaJSYkMLw4du9spZMJbuchpPE0xfhKnO-j6js8QeRiBnQmqDVFJhdCBorl88a5lvFbV0Q5FEJhFT87Bc65wTzBxtFnO-C0ufDFas5yZqUSXnuV82mu_pY81YGJnYyzedqev8IgrusdKENT4jBo&sai=AMfl-YQ7cKH0KnxK_RzlR6m82TMTBwyxd6wGrl8_4Cb5cNKpWwUgP7EKT_fuIA-aH70rOwxrXZpPkOrGwqJOuMP7i-YjOoP309aBZhZRpP7wIMhzY6-izQJKrcW8G6K5axX5MGrjHNZTc-iFbniH1r9siL1Np7XgX5ZGgB_DxRfLI9ypt2umIfIThdBRY3n9G_HdVikfHt0FdQZxERlxECCPjO0jBUSbjkU7_WQnuNtlvMShsFF75h4ThLbNOuMMD5ZKtZuUbjJKI1mKiDP9zl6Kt3Y03fL9TmSJ_9-tm5tJyovsHvqDRihfhoCmNaQK99VWakdsGERWLs2IwPuQ&sig=Cg0ArKJSzLcZXJ3dwA67EAE&uach_m=%5BUACH%5D&urlfix=1&adurl=https://secure.espncdn.com/ad/blank.gif';
+                     }
+              
+              } else {
+                     curOverCapTries++;
+                     if (curOverCapTries < maxOverCapTries) {
+                           setTimeout(overCap, 100);
+                     } 
+              }
+       }
+       overCap();
+       publishCloseEvent();
+</script>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google AdWords: 817714641 -->
+<script async="" src="./js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-817714641');
+</script>
+</div><div style="bottom:0;right:0;width:100px;height:100px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB4SURBVBjTbVABDgAhCKIf8P/XXqmQ3rKWYxEhwLtWFrQTAYzbfZINBQO5YHRuuHkMMo3MXu4Y2q3zOoHfhBMXyekbZuJqJyuNIGzUg9iQ+SvNsivvotSE+Rm6E2pG9gT/ym1KyY/M3GeCGXidLUHBoU0BjgSd46kPASIFTdcV0BIAAAAASUVORK5CYII=&#39;) !important;"></div><script data-jc="103" data-jc-version="r20260402" data-jc-flags="[&quot;x%72?06104!=wu}ay&quot;]" data-jcp-base_url="https://googleads.g.doubleclick.net/pagead/conversion/?ai=Bc44xtZHPacvoCJn7k7QP08DwmQeC2pPZRQAAABABIKeB6m84AViqmPmMgwRgs5hasgEPZGF2aWR3YXRzb24ub3JnugEJZ2ZwX2ltYWdlyAEJ2gEYaHR0cHM6Ly9kYXZpZHdhdHNvbi5vcmcvwAIC4AIA6gIlLzIxNzgzMzQ3MzA5L2VzcG4uY29tL2Zyb250cGFnZS9pbmRlePgCgdIekAO4CJgD4AOoAwHQBJBO4AQB0gUIEKLnsPQSMAGQBgGgBiCIBwGQBwKoB7i-sQKoB_PRG6gHltgbqAeqm7ECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHAOAHAdIIMwgAEAIYnQEyCICAgICAgIAIOhKf0ICAgIAEgMCAgICgqIACqAFIvf3BOljpx8iIuNGTA9gIAoAKBZgLAYAMAaoNAkJE6g0TCIn2yYi40ZMDFZn9hAAdUyA8c9AVAfgWAYAXAbIZATU&amp;sigh=_C-FHXbLFHk" data-jcp-cpu_label="heavy_ad_intervention_cpu" data-jcp-net_label="heavy_ad_intervention_network">(function(){'use strict';var d=new class{constructor(a,b=!1){this.key=a;this.defaultValue=b;this.valueType="boolean"}}("45742757",!0);let f=0;function k(a,b=null){return b&&b.getAttribute("data-jc")===String(a)?b:document.querySelector(`[data-jc="${a}"]`)};function l(){m||(m=new n);const a=m.g[d.key];if(d.valueType==="proto"){try{const b=JSON.parse(a);if(Array.isArray(b))return b}catch(b){}return d.defaultValue}return typeof a===typeof d.defaultValue?a:d.defaultValue}var p=class{constructor(){this.g={}}};var n=class extends p{constructor(){super();var a=k(f,document.currentScript);a=a&&a.getAttribute("data-jc-flags")||"";try{const b=JSON.parse(a)[0];a="";for(let c=0;c<b.length;c++)a+=String.fromCharCode(b.charCodeAt(c)^"\u0003\u0007\u0003\u0007\b\u0004\u0004\u0006\u0005\u0003".charCodeAt(c%10));this.g=JSON.parse(a)}catch(b){}}},m;f=103;const r=k(103,document.currentScript);if(r==null)throw Error("JSC not found 103");const t={},u=r.attributes;for(let a=u.length-1;a>=0;a--){const b=u[a].name;b.indexOf("data-jcp-")===0&&(t[b.substring(9)]=u[a].value)} (function(a,b,c){var e=window;if(a&&b&&c&&e.ReportingObserver&&e.fetch){var q=(g,v)=>{g=g[0];g?.body?.id==="HeavyAdIntervention"&&(e.fetch(`${a}&label=${(g.body.message?.indexOf("network")||0)>0?c:b}`,{keepalive:!0,method:"get",mode:"no-cors"}),v.disconnect())},h=new e.ReportingObserver(q,{types:["intervention"],buffered:!0});h.observe();l()&&e.addEventListener("pagehide",()=>{q(h.takeRecords(),h);h.disconnect()})}})(t.base_url,t.cpu_label,t.net_label);}).call(this);</script></body></html>
