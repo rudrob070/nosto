@@ -1,0 +1,3916 @@
+body {
+  background-color: #101010;
+  font-family: National2web, Arial, sans-serif;
+  color: #fff;
+  font-size: 1em;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  color: #fff;
+  font-size: 3.5em;
+  line-height: 1.1;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  max-width: 24em;
+  margin: 2em;
+  color: #fff;
+  font-size: 3em;
+  line-height: 1.3;
+  font-weight: 500;
+  text-transform: none;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 2.25em;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+p {
+  max-width: 55ch;
+  margin-bottom: 1rem;
+  color: #e2ebe5;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.section {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 60px 3vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #e2ebe5;
+}
+
+.section.bg-green-deep {
+  padding-top: 63px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container.flex-center-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -64px;
+  padding-right: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.utility-heading {
+  margin-bottom: 0rem;
+  color: #e2ebe5;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.margin-bottom-3rem {
+  margin-bottom: 3rem;
+}
+
+.scroll-track {
+  position: relative;
+}
+
+.scroll-track._2-frame {
+  overflow: visible;
+  height: 200vw;
+}
+
+.scroll-track._5-frame {
+  display: block;
+  overflow: visible;
+  height: 500vw;
+  text-decoration: none;
+}
+
+.scroll-track._6-frame {
+  height: 600vw;
+}
+
+.scroll-track._1-frame-height {
+  height: 100vh;
+}
+
+.scroll-track._9-frame {
+  position: relative;
+  height: 900vw;
+}
+
+.scroll-track._4-frame {
+  height: 400vw;
+}
+
+.scroll-track._1-25-frame {
+  height: 125vw;
+}
+
+.scroll-camera {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  text-decoration: none;
+}
+
+.scroll-camera.meet-tim {
+  height: 56.25vw;
+}
+
+.scroll-frame {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.scroll-frame.tim-worried {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Worries.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scroll-frame.dartmouth-experience {
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.scroll-item {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.instructional-image {
+  display: block;
+  width: 25vw;
+  max-width: 300px;
+  margin-top: 1.5rem;
+}
+
+.bg-green-med {
+  background-color: #00693e;
+}
+
+.bg-green-deep {
+  background-color: #12312b;
+}
+
+.scroll-item-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.scroll-item-wrapper.bg-green-med {
+  padding: 3vw;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fill {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.fill.intro__people-layer {
+  display: block;
+}
+
+.fill.bg-frames {
+  background-color: #101010;
+  opacity: 0.55;
+}
+
+.fill.clock__slide {
+  position: relative;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('https://web.archive.org/web/20250306011021im_/https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.clock__slide.bg-library-job {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-bg-library-job.png');
+}
+
+.fill.clock__slide.bg-classes {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-bg-classes.png');
+}
+
+.fill.clock__slide.bg-homework {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-bg-homework.png');
+}
+
+.fill.clock__slide.bg-meals {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-bg-meals.png');
+}
+
+.fill.clock__slide.bg-sleep {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-bg-sleep.png');
+}
+
+.fill.clock__slide.clocks-bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(32%, #161c1a), color-stop(74%, #212928), to(#60787a));
+  background-image: linear-gradient(180deg, #000, #161c1a 32%, #212928 74%, #60787a);
+}
+
+.fill.clock__slide.foreground-slide {
+  background-image: none;
+}
+
+.fill.clock__slide.black-background {
+  background-image: none;
+}
+
+.fill.clock__slide.bg-barista {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-bg-barista.png');
+}
+
+.fill.financial-burden {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/novack.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.fg-frames {
+  display: block;
+}
+
+.fill.bg-fall {
+  position: static;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/bg-fall.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.bg-fall.ready-to-donate {
+  position: absolute;
+}
+
+.fill.work-study {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 56.25vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Lib_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.bg-commencement {
+  z-index: 0;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/commencement_bg.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.library-job {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 56.25vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Library_Job_BG.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fill.first-gen {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Blue_Paper_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.passions {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Gradient_Paper_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.tim-family {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/family-BG1.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.tim-dad {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Family_BG2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.free-up {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Time_Free_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.pursue-dreams {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Pursue_Dreams_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.dartmouth-experience {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100vw;
+  height: 56.25vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.fill.dartmouth-experience.acapella-screen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.fill.dartmouth-experience.river-screen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.fill.dartmouth-experience.ofarm-screen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.fill.dartmouth-experience.fsp-screen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.fill.dartmouth-experience.lodj-screen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.fill.fullest-experience {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Thanks_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.invitation {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Invitation_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.graduate {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Graduation_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.meet-tim {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Green_Paper_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fill.fill__meet-tim {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.fill.fill__meet-tim.meet-tim {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: none;
+}
+
+.fill.fill__meet-tim.first-gen {
+  position: absolute;
+  display: block;
+  overflow: visible;
+}
+
+.fill.fill__meet-tim.passions {
+  display: block;
+  overflow: hidden;
+}
+
+.fill.fill__meet-tim.tim-family {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+
+.fill.fill__meet-tim.tim-dad {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+
+.fill.fill__meet-tim.tim-dad.avery {
+  display: block;
+}
+
+.html-embed {
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+}
+
+.scroll-frame {
+  overflow: visible;
+  text-decoration: none;
+}
+
+.scroll-frame.one-problem {
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.scroll-frame.clock {
+  overflow: hidden;
+}
+
+.scroll-frame.conclusion {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a473f), to(#12312b));
+  background-image: linear-gradient(180deg, #1a473f, #12312b);
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.lottie {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.black-background {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  min-height: 100vh;
+  padding: 0px 0vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-color: #000;
+}
+
+.variable-size__content-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.variable-size__heading {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  line-height: 1;
+}
+
+.variable-size__label {
+  font-size: 8em;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.variable-size__object {
+  width: 8em;
+  height: 8em;
+  border-radius: 2em;
+  background-color: #c4dd88;
+}
+
+.viewport {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #101010;
+  font-size: 1em;
+  line-height: 1.3;
+}
+
+.viewport__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 56.25vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #12312b;
+  outline-color: #c4dd88;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+.viewport__wrapper.is-2 {
+  height: 100vh;
+}
+
+.viewport__text {
+  color: #fff;
+  font-size: 2em;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15em;
+  height: 15em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #e2e5e6;
+  box-shadow: 0 0 2em 0 rgba(18, 49, 43, 0.2);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.box.is-1 {
+  left: 23em;
+  top: 42.6em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 3px 3px 1em 0.5em rgba(18, 49, 43, 0.5);
+  color: #00693e;
+}
+
+.box.is-2 {
+  left: 34em;
+  top: 13.8em;
+  width: 12em;
+  height: 12em;
+}
+
+.box.is-3 {
+  left: 70%;
+  top: 95%;
+  width: 10em;
+  height: 10em;
+}
+
+.box.is-4 {
+  left: 83%;
+  top: 37%;
+  width: 15em;
+  height: 10em;
+}
+
+.box.is-5 {
+  left: 14%;
+  width: 18em;
+  height: 24em;
+}
+
+.box.is-6 {
+  left: 76%;
+  top: 67%;
+}
+
+.box.is-7 {
+  left: 48%;
+  top: 36%;
+  width: 21em;
+  height: 14em;
+}
+
+.box__text {
+  color: #00693e;
+  font-size: 3em;
+}
+
+.story-frame {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.story-frame.intro {
+  text-decoration: none;
+}
+
+.intro__person {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 10em;
+}
+
+.intro__person.bg-1 {
+  left: -2.3%;
+  top: 0.6%;
+  display: block;
+  width: 13.2em;
+}
+
+.intro__person.bg-2 {
+  left: 32.6%;
+  top: -6.4%;
+  display: block;
+  width: 21.3em;
+}
+
+.intro__person.bg-3 {
+  left: 80.8%;
+  top: -11.1%;
+  display: block;
+  width: 13.1em;
+}
+
+.intro__person.bg-5 {
+  left: 2.3%;
+  top: 42%;
+  width: 13em;
+}
+
+.intro__person.bg-4 {
+  left: 81.7%;
+  top: 54.6%;
+  width: 19.6em;
+}
+
+.intro__person.bg-6 {
+  left: 68.5%;
+  top: 69%;
+  display: block;
+  width: 7.7em;
+}
+
+.intro__person.bg-7 {
+  left: 29.6%;
+  top: 85.8%;
+  width: 20em;
+}
+
+.intro__person.fg-1 {
+  left: 80.8%;
+  top: 72.3%;
+  display: block;
+  width: 11.9em;
+}
+
+.intro__person.fg-2 {
+  left: 76.2%;
+  top: 46.5%;
+  display: block;
+  width: 7.2em;
+}
+
+.intro__person.fg-3 {
+  left: 68.2%;
+  top: 8.1%;
+  display: block;
+  width: 16em;
+}
+
+.intro__person.fg-4 {
+  left: 26.8%;
+  top: 7%;
+  width: 8.2em;
+}
+
+.intro__person.fg-5 {
+  left: 57.9%;
+  top: 18%;
+  display: block;
+  width: 12.6em;
+}
+
+.intro__person.fg-6 {
+  left: 6%;
+  top: 23.8%;
+  display: block;
+  width: 17.1em;
+}
+
+.intro__person.fg-7 {
+  left: 6.8%;
+  top: -7.4%;
+  display: block;
+  width: 17.1em;
+}
+
+.intro__person.fg-8 {
+  left: 53.9%;
+  top: 76.9%;
+  display: block;
+  width: 16.4em;
+}
+
+.intro__person.fg-9 {
+  left: 86.6%;
+  top: 26.9%;
+  display: block;
+  width: 14.7em;
+}
+
+.intro__person.fg-10 {
+  left: 4.9%;
+  top: 74%;
+  display: block;
+  width: 9.7em;
+}
+
+.intro__person.fg-11 {
+  left: 11.7%;
+  top: 61.7%;
+  display: block;
+  width: 11.4em;
+  background-color: transparent;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.intro__person.fg-tim {
+  left: 22%;
+  top: 72.9%;
+  display: block;
+  width: 14em;
+}
+
+.scroll-to-begin {
+  position: absolute;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.scroll-to-begin__text {
+  margin-bottom: 0.75em;
+  font-family: National2web, Arial, sans-serif;
+  font-size: 2em;
+  font-style: normal;
+}
+
+.scroll-to-begin__icon {
+  width: 1.5em;
+  height: 0.75em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/caret.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 1.5em;
+}
+
+.intro__heading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  max-width: 12.4em;
+  margin-bottom: 0rem;
+  padding: 2rem;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.intro__heading.is-1 {
+  display: block;
+}
+
+.intro__heading.is-2 {
+  display: block;
+}
+
+.intro__heading.is-3 {
+  display: block;
+  width: 100%;
+  max-width: 13.4em;
+}
+
+.intro__heading.is-4 {
+  display: block;
+  max-width: 14.1em;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-underline {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/underline.png');
+  background-position: 50% 110%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.one-problem-frame {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 56.25vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.one-problem__text-wrapper {
+  position: relative;
+}
+
+.one-problem__heading {
+  margin: 0em 0.05em 0em 0em;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.clock__frame {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 56.25vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+.clock__element {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55vmin;
+  height: 55vmin;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-frame.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clock__element.is-rotating {
+  position: absolute;
+  left: -5.8%;
+  top: -42.7%;
+  width: 64.5%;
+  height: 115.1%;
+  opacity: 0;
+}
+
+.clock__element.is-rotating.is-rotating-2 {
+  left: 60.6%;
+  top: 18.7%;
+  width: 47.2%;
+  height: 84.2%;
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.clock__element.is-rotating.is-rotating-3 {
+  left: 15.4%;
+  top: 73.3%;
+  width: 38.2%;
+  height: 68.1%;
+  -webkit-transform: rotate(-80deg);
+  -ms-transform: rotate(-80deg);
+  transform: rotate(-80deg);
+}
+
+.clock__element.is-rotating.is-rotating-3.free {
+  position: absolute;
+  top: -49.7%;
+  display: block;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #101010;
+}
+
+.clock__element.is-rotating.free {
+  left: 20%;
+  top: -44%;
+  width: 55%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-frame.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background-clip: content-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.clock__element.time-free {
+  position: absolute;
+  left: 19%;
+  top: -41%;
+  right: auto;
+  bottom: auto;
+  width: 75vmin;
+  height: 75vmin;
+}
+
+.clock__element.free {
+  position: absolute;
+  left: 21%;
+  top: -187px;
+  right: auto;
+  bottom: 0%;
+  width: 75vmin;
+  height: 75vmin;
+  background-color: transparent;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.time-message {
+  position: absolute;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.time-message.top-right {
+  top: 0%;
+  right: 0%;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.time-message.bottom-right {
+  right: 0%;
+  bottom: 0%;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.time-message.bottom-left {
+  left: 0%;
+  bottom: 0%;
+}
+
+.time-message__heading {
+  margin-bottom: 0.125em;
+  font-size: 4em;
+  line-height: 1.1;
+}
+
+.time-message__text {
+  margin-bottom: 0rem;
+  color: #fff;
+  font-size: 2.4em;
+  line-height: 1.1;
+}
+
+.clock__hand {
+  position: absolute;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-hand-small.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clock__hand.small {
+  width: 50%;
+  height: 50%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-hand-small_1.png');
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.clock__hand.large {
+  width: 70%;
+  height: 70%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-hand-big.png');
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.clock__center {
+  position: absolute;
+  width: 8%;
+  height: 8%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/clock-center.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.speech-bubble {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 20%;
+  height: 20%;
+  background-image: url('https://web.archive.org/web/20250306011021im_/https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.speech-bubble.sb-sleep-1 {
+  position: absolute;
+  left: 2%;
+  top: 60%;
+  width: 32.1%;
+  height: 37.3%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/sleep-1.png');
+}
+
+.speech-bubble.sb-meals-1 {
+  position: absolute;
+  left: 64%;
+  top: 30%;
+  width: 34.6%;
+  height: 35.7%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/meals-1.png');
+}
+
+.speech-bubble.sb-classes-1 {
+  left: 4.9%;
+  top: 10.5%;
+  width: 27.2%;
+  height: 32.7%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/classes-1.png');
+}
+
+.speech-bubble.sb-barista-1 {
+  left: 2.6%;
+  top: 8.2%;
+  width: 24%;
+  height: 18.2%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/barista-1.png');
+}
+
+.speech-bubble.sb-barista-2 {
+  left: 67.4%;
+  top: 62.9%;
+  width: 28.8%;
+  height: 28.9%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/barista-2.png');
+}
+
+.no-time__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.no-time__big-word {
+  margin: 0em;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 20em;
+  line-height: 0.8;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.no-time__overline {
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.bg-graphic-books {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  background-image: url('https://web.archive.org/web/20250306011021im_/https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-graphic-books.is-1 {
+  display: none;
+  width: 46.6em;
+  height: 49.9em;
+  background-image: none;
+}
+
+.clock__frames {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clock__frames.foreground-frames {
+  z-index: 2;
+}
+
+.lottie-clock-shade {
+  display: none;
+}
+
+.lottie-clock-shade.is-2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  display: block;
+  width: 100vmax;
+  height: 100vmax;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.clock__heading {
+  max-width: 19em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+}
+
+.financial-burden__text {
+  position: relative;
+  padding: 0.25em 0.5em 0.4em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/text-bg.png');
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  color: #101010;
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.financial-burden__text.work-study {
+  position: absolute;
+  left: 18%;
+  top: auto;
+  right: 0%;
+  bottom: 4%;
+  width: 65%;
+  opacity: 1;
+  text-align: center;
+  mix-blend-mode: normal;
+}
+
+.financial-burden__text.work-study.library {
+  left: 9%;
+  top: auto;
+  right: auto;
+  bottom: 19%;
+  width: 35%;
+  font-size: 2.6em;
+}
+
+.financial-burden__text.first-gen {
+  position: absolute;
+  left: 12%;
+  top: auto;
+  right: auto;
+  bottom: 16%;
+}
+
+.financial-burden__text.work-study2 {
+  position: absolute;
+  left: 10%;
+  top: auto;
+  right: auto;
+  bottom: 11%;
+  width: 22.5%;
+  font-size: 2.6em;
+  text-align: center;
+}
+
+.financial-burden__text.first-gen2 {
+  position: absolute;
+  left: 13%;
+  top: auto;
+  right: auto;
+  bottom: 7%;
+}
+
+.financial-burden__text.explore-text {
+  position: absolute;
+  left: 9%;
+  top: 74%;
+}
+
+.financial-burden__text.explore-text.explore-text2 {
+  left: 10%;
+  top: 83%;
+}
+
+.financial-burden__text.passions1 {
+  position: absolute;
+  top: 77%;
+  right: 50%;
+}
+
+.financial-burden__text.passions2 {
+  position: absolute;
+  top: 86%;
+  right: 47%;
+}
+
+.financial-burden__text.family-burden {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 13%;
+  bottom: 11%;
+  width: 74%;
+  text-align: center;
+}
+
+.financial-burden__text.tims-dad {
+  position: absolute;
+  left: 2.5%;
+  top: 31%;
+  right: auto;
+  bottom: auto;
+}
+
+.financial-burden__text.tims-dad2 {
+  position: absolute;
+  left: 2%;
+  top: auto;
+  right: auto;
+  bottom: 52%;
+}
+
+.financial-burden__text.tims-mom {
+  position: absolute;
+  left: auto;
+  top: 25%;
+  right: 3%;
+  bottom: auto;
+}
+
+.financial-burden__text.tims-mom2 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 3%;
+  bottom: 58.5%;
+}
+
+.financial-burden__text.tims-mom3 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 3%;
+  bottom: 50%;
+}
+
+.financial-burden__text.extra-shifts-text {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 15%;
+  bottom: 15%;
+  width: auto;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.financial-burden__text.extra-shifts2 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 35%;
+  bottom: 3%;
+  font-size: 3.5em;
+  font-style: normal;
+}
+
+.financial-burden__text.little-sister-text {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 13%;
+  bottom: 14%;
+}
+
+.financial-burden__text.little-sister-text2 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 12%;
+  bottom: 6%;
+}
+
+.novack__text-wrapper {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.bg-graphic {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  background-image: url('https://web.archive.org/web/20250306011021im_/https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-graphic.coffee-beans {
+  left: 0px;
+  top: 0px;
+  width: 19.6%;
+  height: 48.7%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/coffee-beans.png');
+}
+
+.bg-graphic.coffee-pot {
+  left: 74.7%;
+  top: -5.6%;
+  width: 26.7%;
+  height: 58.7%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/coffee-pot.png');
+}
+
+.bg-graphic.coffee-cup {
+  left: 71.9%;
+  top: 56.4%;
+  width: 22.1%;
+  height: 37.1%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/coffee-cup.png');
+}
+
+.bg-graphic.bg-graphic-baker {
+  left: 60.9%;
+  bottom: -4%;
+  z-index: 0;
+  width: 44em;
+  height: 100.6em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/baker.png');
+  background-position: 0% 100%;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+.bg-graphic.bg-graphic-blob-2 {
+  left: 34.5%;
+  bottom: -10.4%;
+  z-index: 0;
+  width: 67em;
+  height: 52em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/blob-2.svg');
+  background-position: 0% 100%;
+  -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.bg-graphic.bg-graphic-blob-2.left {
+  left: 0%;
+  width: 60em;
+  height: 46.6em;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.bg-graphic.bg-graphic-dartmouth-hall {
+  left: -4%;
+  bottom: -4%;
+  z-index: 0;
+  width: 34em;
+  height: 38.9em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/dartmouth-hall.png');
+  background-position: 0% 100%;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+.bg-graphic.bg-graphic-dartmouth-hall.ready-to-donate {
+  left: 44%;
+  width: 60em;
+  height: 69em;
+}
+
+.bg-graphic.bg-graphic-dartmouth-hall.ready-to-donate.is-2 {
+  left: 47%;
+  top: 52%;
+  width: 32em;
+  height: 41em;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bg-graphic.bg-graphic-grads {
+  right: -2%;
+  bottom: -12%;
+  width: 35.8em;
+  height: 47.3em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/grads_outlined.png');
+  background-position: 0% 0%;
+}
+
+.bg-graphic.bg-graphic-blob-1 {
+  left: 23.5%;
+  top: 8.4%;
+  width: 69.3%;
+  height: 70.8%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/blob-1.svg');
+}
+
+.overwhelmed__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.overwhelmed__overline {
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.overwhelemed__big-word {
+  margin: 0em;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 10em;
+  line-height: 0.8;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.conclusion__frames {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.conclusion__title {
+  margin-bottom: 0rem;
+  font-size: 6em;
+}
+
+.conclusion__title.ready-to-donate {
+  position: absolute;
+  margin-bottom: 0.5em;
+  font-size: 8em;
+}
+
+.conclusion__title-wrapper {
+  padding: 3em;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.frame.intro__person {
+  display: block;
+}
+
+.frame.intro__person.fg-1 {
+  left: 80%;
+  top: 70%;
+  width: 14em;
+}
+
+.frame.intro__person.fg-6 {
+  position: absolute;
+  left: 5.25%;
+  top: 22.5%;
+  width: 18.5em;
+}
+
+.frame.intro__person.fg-2 {
+  left: 74.75%;
+  top: 44.5%;
+  width: 6.5em;
+  font-size: 1.5em;
+}
+
+.frame.intro__person.bg-3 {
+  left: 79.5%;
+  top: 0%;
+  width: 15em;
+}
+
+.frame.intro__person.fg-11 {
+  left: 12%;
+  top: 62%;
+  width: 11em;
+}
+
+.frame.intro__person.bg-5 {
+  left: 0.5%;
+  top: 39%;
+  width: 15.5em;
+}
+
+.frame.intro__person.fg-tim {
+  left: 21.5%;
+  top: 72%;
+  width: 15em;
+}
+
+.frame.intro__person.fg-8 {
+  left: 53%;
+  top: 75.5%;
+  width: 19em;
+}
+
+.frame.intro__person.fg-3 {
+  left: 67.5%;
+  top: 7%;
+  width: 17.5em;
+}
+
+.frame.intro__person.fg-4 {
+  left: 26%;
+  top: 5.5%;
+  width: 10em;
+}
+
+.meet-tim-image {
+  position: absolute;
+  left: 27%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 77.5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Meet-Tim.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.meet-tim-text {
+  position: absolute;
+  left: auto;
+  top: 11%;
+  right: 22%;
+  bottom: auto;
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 6em;
+  font-style: italic;
+}
+
+.meet-tim-decor {
+  position: absolute;
+  left: -3%;
+  top: auto;
+  right: auto;
+  bottom: 4%;
+  width: 120%;
+  height: 90%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Meet_Tim_Decor.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mitochondria {
+  position: absolute;
+  left: -10%;
+  top: 1%;
+  right: auto;
+  bottom: 0%;
+  width: 70%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Bio_Elements.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mitochondria.jitter {
+  left: -8%;
+  top: -6%;
+  width: 70%;
+  height: 106%;
+}
+
+.mitochondria.passions-page {
+  left: -12%;
+  top: -6%;
+  width: 80%;
+  height: 106%;
+}
+
+.mitochondria.dreams-page {
+  left: -18%;
+  top: 1%;
+}
+
+.mitochondria.dreams-page.jitter {
+  left: -29%;
+  overflow: hidden;
+}
+
+.leaves {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -15%;
+  bottom: -9%;
+  width: 70%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Leaves.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.leaves.jitter {
+  right: -26%;
+  bottom: 0%;
+  width: 100%;
+  height: 88%;
+}
+
+.cells {
+  position: absolute;
+  left: 8%;
+  top: 35%;
+  right: auto;
+  bottom: auto;
+  width: 25%;
+  height: 35%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Bio.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cells.jitter {
+  left: 14%;
+}
+
+.conclusion__slide {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.conclusion__slide.endowed {
+  position: absolute;
+}
+
+.conclusion__slide.endowed.is-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.conclusion__slide.endowed.is-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.conclusion__slide.dcf {
+  position: absolute;
+}
+
+.conclusion__slide.ready-to-donate {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.conclusion__question {
+  position: absolute;
+  left: 5.9%;
+  top: 17.5%;
+  max-width: 13em;
+  margin-bottom: 0rem;
+  font-size: 5.5em;
+  line-height: 0.95;
+  text-align: left;
+}
+
+.conclusion__question.is-2 {
+  top: 13.8%;
+}
+
+.conclusion__text {
+  position: absolute;
+  left: 5.9%;
+  top: 40%;
+  margin-bottom: 0rem;
+  font-size: 1.7em;
+}
+
+.conclusion__text.endowed {
+  max-width: 22em;
+}
+
+.conclusion__text.endowed.is-1 {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: block;
+  max-width: none;
+  padding: 0em 0em 0em 1em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: left;
+}
+
+.conclusion__text.endowed.is-2 {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 1em;
+}
+
+.conclusion__text.endowed.is-3 {
+  left: 8.1%;
+  top: 85.1%;
+}
+
+.conclusion__text.endowed.is-3 {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  max-width: 24.1em;
+}
+
+.conclusion__text.endowed.is-5 {
+  position: relative;
+  left: auto;
+  top: auto;
+  max-width: 24em;
+}
+
+.conclusion__text.endowed.is-4 {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+
+.conclusion__text.dcf {
+  position: relative;
+  left: auto;
+  top: auto;
+  max-width: 20em;
+  margin-bottom: 0.8em;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 3em;
+  line-height: 1.4;
+}
+
+.conclusion__text.dcf.is-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.1em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 3.3em;
+  font-weight: 500;
+}
+
+.conclusion__text.dcf.is-1 {
+  left: 33%;
+  top: 29%;
+}
+
+.baker-circle {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/BG_Decor_1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tim-arms-crossed {
+  position: absolute;
+  left: -3%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 80%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_ArmsCrossed.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.books-left {
+  position: absolute;
+  left: 4%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  width: 50%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Books-on-Left.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.books-right {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  height: 75%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Books-on-Right.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work-study-text {
+  position: absolute;
+  left: 20%;
+  top: auto;
+  right: auto;
+  bottom: 7%;
+  width: auto;
+  height: auto;
+  font-size: 3em;
+}
+
+.all-sizes-text {
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+.dcf-stat__wrapper {
+  position: absolute;
+  top: 35%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90em;
+  margin-bottom: 13em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.dcf-stat__overline {
+  margin-bottom: 0rem;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 3.5em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.dcf-stat__number {
+  max-width: none;
+  font-family: National2web, Arial, sans-serif;
+  font-size: 8.5em;
+  line-height: 0.9;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dcf-stat__intro {
+  position: absolute;
+  top: 27%;
+  margin-bottom: 2em;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 3.5em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.ready-to-donate__text-wrapper {
+  position: absolute;
+  top: 47.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.ready-to-donate__text {
+  margin-bottom: 0rem;
+  font-size: 2.5em;
+}
+
+.ready-to-donate__text.with-highlights {
+  line-height: 1.4;
+}
+
+.ready-to-donate__text.with-highlights.is-1 {
+  position: absolute;
+  left: 16%;
+  top: 15%;
+}
+
+.ready-to-donate__text.with-highlights.is-2 {
+  position: absolute;
+  left: 56%;
+  top: 39%;
+  padding-bottom: 0.65em;
+}
+
+.ready-to-donate__text.with-highlights.is-3 {
+  position: absolute;
+  left: 11%;
+  top: 65%;
+  padding-bottom: 0.65em;
+}
+
+.ready-to-donate__highlight {
+  position: relative;
+  font-weight: 700;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.give-now__frame {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/commencement-caps.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.give-now__left-wrapper {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #12312b;
+}
+
+.give-now__content-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3.3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.lone-pine {
+  width: 3em;
+  height: 5.5em;
+  margin-bottom: 3em;
+}
+
+.give-now__button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em 3.5em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #00693e;
+  box-shadow: 11px 11px 0 0 #051310;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.give-now__button:active {
+  box-shadow: 0 0 0 0 #051310;
+  -webkit-transform: translate(15px, 16px);
+  -ms-transform: translate(15px, 16px);
+  transform: translate(15px, 16px);
+}
+
+.give-now__arrow {
+  width: 3em;
+  height: 1.2em;
+  margin-left: 0.5em;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/arrow.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.give-now__button-text {
+  font-size: 1.4em;
+  line-height: 1;
+  letter-spacing: 0.3em;
+}
+
+.give-now__heading {
+  max-width: none;
+  margin: 2rem 2rem 5.5rem;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 6em;
+  line-height: 1.025;
+  font-style: italic;
+  text-align: center;
+}
+
+.shadow-work-study {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: -57%;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Shadow-work-study.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.books1 {
+  position: absolute;
+  left: 0%;
+  top: 7%;
+  right: auto;
+  bottom: 0%;
+  width: 40%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Books1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.books2 {
+  position: absolute;
+  left: 1.5%;
+  top: -3%;
+  right: auto;
+  bottom: 0%;
+  width: 60%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Books2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.books3 {
+  position: absolute;
+  left: 25%;
+  top: auto;
+  right: auto;
+  bottom: 4%;
+  width: 50%;
+  height: 55%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Books3.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.books4 {
+  position: absolute;
+  left: auto;
+  top: 2%;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  height: 85%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Books4.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tim-lib-job {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: -8%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim-Lib-Job.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lib-job-shadow {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: -30%;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/lib-job-shadow.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.buildings {
+  position: absolute;
+  left: 4%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 95%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Buildings.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mountains {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Landscape.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.science-elements {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  height: 95%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Science_Decor.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.science-elements.dreams {
+  top: 8%;
+  right: -17%;
+  height: 100%;
+}
+
+.science-elements.dreams.jitter {
+  top: 2%;
+  right: -14%;
+  overflow: hidden;
+}
+
+.cell-circle {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/BG_Decor.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.family-frame {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/family-frame.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sister {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  height: 65%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Sister1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dad {
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  right: auto;
+  bottom: auto;
+  display: block;
+  width: 45%;
+  height: 80%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Dad2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mom {
+  position: absolute;
+  left: auto;
+  top: 31%;
+  right: 6%;
+  bottom: 0%;
+  width: 50%;
+  height: 70%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Mom.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mom.mom2 {
+  right: 14%;
+  width: 40%;
+}
+
+.sister2 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 27%;
+  bottom: 0%;
+  width: 50%;
+  height: 80%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Sister2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.enough {
+  font-style: italic;
+}
+
+.tim-worries-text {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 6%;
+  bottom: 47%;
+  display: block;
+  overflow: visible;
+  font-family: National2web, Arial, sans-serif;
+  font-size: 4em;
+  line-height: 1.25em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tim-help-text {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 6%;
+  bottom: 46%;
+  display: block;
+  font-size: 4em;
+  line-height: 1.25em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.medical-school-text {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 4%;
+  bottom: 43%;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tim-drop-premed {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -13%;
+  bottom: 0%;
+  width: 85%;
+  height: 85%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Drop_Premed.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.drop-premed-frame {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Drop_Premed_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stress-decor1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Stressed1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stress-decor2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Stressed2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.schedule-pressure {
+  position: absolute;
+  left: 5%;
+  top: 27%;
+  right: auto;
+  bottom: auto;
+  font-family: National2web, Arial, sans-serif;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.drop-text {
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  right: auto;
+  bottom: auto;
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.change-frame {
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Change_Gradient_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.how-change-text {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 5em;
+}
+
+.eliminated-loans {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  color: #fff;
+  font-size: 5em;
+}
+
+.free-up-text {
+  position: absolute;
+  left: 0%;
+  top: 26%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px none #000;
+  border-radius: 0px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a7d9ca), to(#b9e2ff));
+  background-image: linear-gradient(90deg, #a7d9ca, #b9e2ff);
+  box-shadow: 0 0 0 0 #000;
+  outline-color: #101010;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  color: #fff;
+  font-size: 6em;
+  font-style: italic;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: multiply;
+}
+
+.clock-half {
+  position: absolute;
+  left: auto;
+  top: -45%;
+  right: 20%;
+  bottom: auto;
+  width: 60%;
+  height: auto;
+}
+
+.dot {
+  position: absolute;
+  left: 47%;
+  top: 4%;
+  right: auto;
+  bottom: auto;
+  width: 6%;
+}
+
+.little {
+  position: absolute;
+  left: 35%;
+  top: -17%;
+  right: auto;
+  bottom: auto;
+  width: 30%;
+  opacity: 0.84;
+}
+
+.big {
+  position: absolute;
+  left: 30%;
+  top: -23%;
+  right: auto;
+  bottom: auto;
+  width: 40%;
+}
+
+.acapella {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Acapella_BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.river {
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/river.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.o-farm {
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/o-farm.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fsp {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/fsp-BG.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lodj {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/lodj.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pursue-dreams-text {
+  position: absolute;
+  top: -108px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 4.5em;
+  font-style: italic;
+}
+
+.music-notes {
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Music_Notes.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.take-part-text {
+  position: absolute;
+  left: 7%;
+  top: auto;
+  right: auto;
+  bottom: 29%;
+  display: block;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.dartmouth-experience-text {
+  position: absolute;
+  left: 7%;
+  top: 79%;
+  right: auto;
+  bottom: auto;
+  display: block;
+  font-family: 'Dartmouth Ruzicka', Georgia, sans-serif;
+  font-size: 9em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.fsp-tag {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 18%;
+  height: 15%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/FSP_Tag.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fsp-tag.jitter {
+  top: 1%;
+  display: block;
+}
+
+.lodj-tag {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Lodj_Tag.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tim-backpack {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 55%;
+  height: 85%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Thanks.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.thanks-donations-text {
+  position: absolute;
+  left: 9%;
+  top: auto;
+  right: auto;
+  bottom: 56%;
+  font-size: 3em;
+  line-height: 1.25em;
+  font-weight: 700;
+}
+
+.fullest-text {
+  position: absolute;
+  left: 9%;
+  top: auto;
+  right: auto;
+  bottom: 35%;
+  font-size: 3em;
+  line-height: 1.25em;
+  font-weight: 700;
+}
+
+.fullest {
+  font-style: italic;
+}
+
+.graduation-pic {
+  position: absolute;
+  left: -5%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 96%;
+  height: 96%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Tim_Graduation.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.graduate-text {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 8%;
+  font-size: 3em;
+  line-height: 1.25em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.graduate-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/graduate-shadow.png');
+  background-position: 50% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.question-mark {
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Question_Mark.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.count-text {
+  position: absolute;
+  left: auto;
+  top: 40%;
+  right: 16%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+.students-like-tim {
+  position: absolute;
+  left: 9%;
+  top: auto;
+  right: auto;
+  bottom: 43%;
+  font-size: 9em;
+  font-weight: 700;
+}
+
+.lottie-animation {
+  position: relative;
+  opacity: 1;
+}
+
+.lottie-animation-2 {
+  position: relative;
+  bottom: -911px;
+}
+
+.music-notes-animation {
+  position: absolute;
+}
+
+.lottie-animation-4 {
+  position: absolute;
+}
+
+.airplane-lottie {
+  position: absolute;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/Green_Paper_BG.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.conclusion__text-container {
+  position: absolute;
+  left: 30%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 57%;
+  height: 100%;
+  padding: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block {
+  position: relative;
+  width: 60%;
+}
+
+.experience-frames {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700vw;
+  height: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.full-screen {
+  position: relative;
+  left: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: -67px;
+  display: block;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.div-block-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/river_art.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.river-tag {
+  position: absolute;
+  left: -33px;
+  top: 8px;
+  width: 40%;
+  height: 15%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/river-tag.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.river-tag.jitter {
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/river-tag.png');
+}
+
+.o-farm-tag {
+  position: absolute;
+  left: -33px;
+  top: 8px;
+  width: 40%;
+  height: 15%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/river-tag.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.o-farm-tag.jitter {
+  left: -11%;
+  top: 3%;
+  background-image: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/images/o-farm-tag.png');
+}
+
+.fsp-bg {
+  display: block;
+  background-image: url('https://web.archive.org/web/20250306011021im_/https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.conclusion__text-wrapper {
+  position: relative;
+  width: 59.578125vw;
+  height: auto;
+  padding: 3em;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.endowed__text-wrapper {
+  position: absolute;
+  left: 5.9%;
+  top: 38.8%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 35%;
+  height: 15%;
+  padding: 1em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.endowed__text-wrapper.txt2 {
+  left: 23.1%;
+  top: 66.1%;
+  height: 15%;
+}
+
+.endowed__text-wrapper.affinity-group-text {
+  position: absolute;
+  top: 41.5%;
+  width: 40%;
+  height: 11%;
+  padding-left: 1.5em;
+}
+
+.endowed__text-wrapper.starts-at-text {
+  position: absolute;
+  left: 19%;
+  top: 56.2%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 39%;
+  height: 11%;
+  padding-left: 1.5em;
+}
+
+.endowed__text-wrapper.perpetuity-text {
+  left: 8.1%;
+  top: 72.9%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 39%;
+  height: 11%;
+  padding-left: 1.5em;
+}
+
+.warning {
+  display: none;
+}
+
+@media screen and (min-width: 1920px) {
+  .conclusion__slide.endowed.is-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .conclusion__text.endowed.is-1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 0rem;
+    padding: 0em;
+  }
+
+  .conclusion__text.endowed.is-2 {
+    position: relative;
+    padding-top: 0em;
+    padding-left: 0em;
+  }
+
+  .conclusion__text.endowed.is-5 {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+
+  .conclusion__text.endowed.is-4 {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+
+  .endowed__text-wrapper {
+    display: block;
+    width: 35%;
+    height: 19%;
+  }
+
+  .endowed__text-wrapper.txt2 {
+    display: block;
+    width: 35%;
+    height: 19%;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .endowed__text-wrapper.affinity-group-text {
+    width: 40%;
+    height: 13%;
+    padding-left: 1.5em;
+  }
+
+  .endowed__text-wrapper.starts-at-text {
+    left: 19%;
+    width: 40%;
+    height: 13%;
+    padding-left: 1.5em;
+  }
+
+  .endowed__text-wrapper.perpetuity-text {
+    left: 8.1%;
+    top: 72.9%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 38%;
+    height: 13%;
+    padding-left: 1.5em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .scroll-track._2-frame {
+    height: auto;
+  }
+
+  .scroll-track._9-frame {
+    height: auto;
+  }
+
+  .scroll-camera {
+    overflow: visible;
+    width: auto;
+    height: auto;
+  }
+
+  .scroll-frame {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .full-screen {
+    display: none;
+  }
+
+  .warning {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 12px;
+    padding-top: 1em;
+    padding-left: 1em;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    background-color: #fff;
+  }
+
+  .warning-text {
+    padding-right: 1em;
+    font-family: National2web, Arial, sans-serif;
+    color: #101010;
+    font-size: 2em;
+    text-align: left;
+  }
+}
+
+@font-face {
+  font-family: 'National2web';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/National2Web-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'National2web';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/National2Web-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'National2web';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/National2Web-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'National2web';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/National2Web-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dartmouth Ruzicka';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/DartmouthRuzicka-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dartmouth Ruzicka';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/DartmouthRuzicka-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dartmouth Ruzicka';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/DartmouthRuzicka-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dartmouth Ruzicka';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/DartmouthRuzicka-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dartmouth Ruzicka';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/DartmouthRuzicka-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dartmouth Ruzicka';
+  src: url('/web/20250306011021im_/https://shapethefuture.dartmouth.edu/fonts/DartmouthRuzicka-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+/*
+     FILE ARCHIVED ON 01:10:21 Mar 06, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:19:14 Jun 26, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.398
+  load_resource: 255.123
+  PetaboxLoader3.resolve: 56.145
+  PetaboxLoader3.datanode: 198.233
+*/
